@@ -1,0 +1,104 @@
+.quiz-box{
+    width: 70%;
+    margin-bottom: 40px auto;
+    margin-top: 20px;
+}
+.quiz-box h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.quiz-box h3{
+    margin-bottom:30px;
+    color:#555;
+}
+
+.que-box{
+    margin-top:20px;
+}
+
+.que-box h2{
+    margin-bottom:30px;
+    font-size:28px;
+    font-weight:500;
+}
+
+.option{
+    display:flex;
+    align-items: center;
+    flex-direction:row;
+    gap:15px;
+    padding: 18px 25px;
+    border-bottom: 1px solid #b8c4d6;
+}
+.option:last-child{
+    border-bottom: none;   /* Removes line from last option */
+}
+
+.option label{
+    flex: 1;               /* Takes remaining space */
+    text-align: left;      /* Keeps text on left */
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.option input{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+.opt-box{
+    display:flex;
+    align-items:left;
+    gap:20px;
+    flex-direction: column;
+
+    background:#ECEFF3;
+
+    padding:20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.opt-box:hover{
+    background:#dde5ee;
+}
+
+
+.opt-box input{
+    
+    width: 20px;
+    height: 20px;
+}
+
+
+ 
+ 
+.next-btn,
+.finish-btn{
+
+    margin-top:35px;
+
+    background:#4a20e3;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 35px;
+
+    border-radius:8px;
+
+    font-size:20px;
+
+    cursor:pointer;
+}
+.next-btn:hover,
+.finish-btn:hover{
+
+    background:#da047a;
+}

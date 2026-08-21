@@ -1,0 +1,39 @@
+.result-container{
+     width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    text-align: center;
+
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    
+}
+
+.result-container h1{
+     color: #4f46e5;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.result-container h2{
+    color: #444;
+    margin-top: 30px;
+
+    margin-bottom: 30px;
+}
+
+.restart-btn{
+    background: #4f46e5;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.restart-btn:hover{
+    background: #3730a3;
+}
